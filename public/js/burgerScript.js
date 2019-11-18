@@ -63,6 +63,8 @@ $(document).ready(function () {
       [
         "<li class='list-group-item d-flex justify-content-between align-items-center burger-item'>",
         "<span>",
+        burger.id,
+        " - ",
         burger.burgerName,
         "</span>",
         "<button class='devoured btn btn-primary text-right'>Devour!</button>",
