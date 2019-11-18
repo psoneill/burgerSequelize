@@ -1,7 +1,8 @@
-{
+require('dotenv').config();
+module.exports = {
   "development": {
-    "username": "root",
-    "password": "Jamtrick1",
+    "username": process.env.MYSQL_USER,
+    "password": process.env.MYSQL_KEY,
     "database": "burger_db",
     "host": "127.0.0.1",
     "port": 3306,
@@ -9,8 +10,8 @@
     "operatorsAliases": false
   },
   "test": {
-    "username": "root",
-    "password": "Jamtrick1",
+    "username": process.env.MYSQL_USER,
+    "password": process.env.MYSQL_KEY,
     "database": "burger_db",
     "host": "127.0.0.1",
     "port": 3306,
@@ -19,7 +20,6 @@
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
-    "dialect": "mysql",
     "operatorsAliases": false
   }
 }
