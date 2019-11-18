@@ -1,0 +1,27 @@
+{
+  "name": "burgersequelize",
+  "version": "1.0.0",
+  "description": "This app mimics a customer experience at a burger joint",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psoneill/burgerSequelize.git"
+  },
+  "author": "Patrick ONeill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psoneill/burgerSequelize/issues"
+  },
+  "homepage": "https://github.com/psoneill/burgerSequelize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
